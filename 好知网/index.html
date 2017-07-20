@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var div1 = document.getElementById("list-xia");
+			var div2 = document.getElementById("list-xia-biao");
+			div1.onclick = function(event) {
+				div2.style.display = "block";
+				event.stopPropagation();
+			}
+
+			document.onclick = function(event) {
+				div2.style.display = "none";
+				event.stopPropagation();
+			}
+		</script>
+	</head>
+
+	<body>
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<header>
+				<div class="head-center clearfix">
+					<img src="img/未标题-1.png" />
+					<div class="head-list">
+						<ul class="clearfix">
+							<li>
+								<a href="#">学习中心</a>
+							</li>
+							<li>
+								<a href="#">课程</a>
+							</li>
+							<li>
+								<a href="#">班级</a>
+							</li>
+							<li>
+								<a href="#">小组</a>
+							</li>
+						</ul>
+					</div>
+					<div class="head-right">
+						<div class="list-xia">
+							<a href="#" id="list-xia">课程</a>
+							<div class="list-xia-biao" id="list-xia-biao">
+								<p>语文</p>
+								<p>数学</p>
+								<p>英语</p>
+							</div>
+						</div>
+						<input type="text" id="" placeholder="输入要查找的内容" />
+						<input type="button" id="" value="搜索" />
+						<span>
+							<a href="#">登录</a>
+							<a href="#">注册</a>
+							<a href="#">
+								<img src="img/未标题-2.png"/>
+								好知APP
+							</a>
+						</span>
+					</div>
+				</div>
+			</header>
+			<div class="banner">
+				<img src="img/未标题3.png" />
+
+			</div>
+			<div class="nav">
+				<ul class="row nav-list">
+					<li class="col-lg-1">首页</li>
+					<li class="col-lg-1">首页</li>
+					<li class="col-lg-1">首页</li>
+					<li class="col-lg-1">首页</li>
+					<li class="col-lg-1">首页</li>
+					<li class="col-lg-1">首页</li>
+					<li class="col-lg-1">首页</li>
+					<li class="col-lg-1">首页</li>
+				</ul>
+			</div>
+			<div class="content container">
+				<div class="content-center row">
+					<div class="content-center-left col-lg-8 col-md-8">
+						<div class="col-lg-12 col-md-12">
+							<h3 class="col-lg-11 col-md-11">班级</h3>
+							<p class="col-lg-1 col-md-1">...</p>
+						</div>
+						<div class="col-lg-12 col-md-12">
+							TA还未加入任何班级
+						</div>
+						<div class="col-lg-12 col-md-12">
+							<h3 class="col-lg-11 col-md-11">在教课程</h3>
+							<p class="col-lg-1 col-md-1">...</p>
+						</div>
+						<div class="col-lg-12 col-md-12">
+							<div class="col-lg-4 col-md-6">
+								<img src="img/未标题-4.png"/>
+								<p>智能权限</p>
+								<p>智能权限</p>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<img src="img/未标题-6.png"/>
+								<p>智能权限</p>
+								<p>智能权限</p>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<img src="img/未标题51.png"/>
+								<p>智能权限</p>
+								<p>智能权限</p>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<img src="img/未标题-4.png"/>
+								<p>智能权限</p>
+								<p>智能权限</p>
+							</div>
+						</div>
+							
+					</div>
+					<div class="content-center-right col-lg-3">
+						<div class="col-lg-12">
+							<div class="col-lg-3">
+								<p>4</p>
+								<p>在线</p>
+							</div>
+							<div class="col-lg-3">
+								<p>1</p>
+								<p>在线</p>
+							</div>
+							<div class="col-lg-3">
+								<p>0</p>
+								<p>在线</p>
+							</div>
+							<div class="col-lg-3">
+								<p>0</p>
+								<p>在线</p>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<p class="col-lg-11">昵称：文峰</p>
+							<p class="col-lg-11">等级：8</p>
+							<p class="col-lg-11">来自</p>
+							<p class="col-lg-11">简介</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>
